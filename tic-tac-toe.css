@@ -1,0 +1,101 @@
+h1 {
+    display: block; 
+    text-align: center; 
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    transition: all 0.3s; 
+}
+
+h1:hover {
+    background-color: black; 
+    color: white; 
+}
+
+body {
+    background-color:aqua; 
+}
+
+.promote {
+    display: block;
+    text-align: center; 
+    font-family: sans-serif; 
+    font-weight: bold; 
+    font-size: 40px; 
+    transition: all 0.3s; 
+}
+
+.promote:hover {
+    background-color: #000; 
+    color: white; 
+}
+
+.contact a {
+    display: block; 
+    text-decoration: none; 
+    color: #000; 
+    font-size: 20px;  
+}
+
+.footer {
+    background-color: lightyellow; 
+}
+
+
+
+.board {
+    display: block; 
+}
+
+
+.square {  
+    border: 1px solid black; 
+    width: 150px; 
+    height: 150px; 
+    background-color: aquamarine; 
+}
+
+.square p {
+    font-size: 50px; 
+    text-align: center; 
+    font-family: sans-serif; 
+}
+
+.square:hover {
+    background-color: yellow; 
+}
+
+.row1 {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+}
+
+.row2 {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+}
+
+.row3 {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.turn {
+    font-size: 70px; 
+    text-align: center; 
+    font-family: sans-serif; 
+    font-weight: bold; 
+    transition: all 0.3s; 
+}
+
+.turn:hover {
+    background-color: #000; 
+    color: white; 
+}
+
+hr {
+    border: 1px solid black; 
+}
